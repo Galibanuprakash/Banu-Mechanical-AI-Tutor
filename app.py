@@ -38,7 +38,7 @@ def generate_response(user_input):
 # Streamlit UI
 st.set_page_config(page_title="AI Mechanical Engineering Tutor", page_icon="🤖")
 st.title("🤖 Banu AI Conversational Mechanical Engineering Tutor")
-st.write("Hi Banu Ask any mechanical engineering-related questions!")
+st.write("Hi Banu Ask only mechanical engineering-related questions!")
 
 # Initialize chat history in session state if not already present
 if "messages" not in st.session_state:
